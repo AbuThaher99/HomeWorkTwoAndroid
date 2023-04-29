@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Bio"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:translationY="-30dp"
+        tools:text="My Bio" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="191dp"
+        android:layout_height="199dp"
+        android:translationY="-22dp"
+        app:srcCompat="@drawable/abuthaher" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:includeFontPadding="false"
+        android:text="Mohammad AbuThaher"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:translationY="-15dp" />
+
+    <EditText
+        android:id="@+id/textF"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Write Your Hobbies"
+        android:inputType="textPersonName"
+        android:translationY="-8dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="ADD" />
+
+
+
+    <EditText
+        android:id="@+id/textArea"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:maxLines="100"
+        android:textSize="16sp"
+        android:scrollbars="horizontal|vertical"
+        android:editable="false"
+        />
+
+
+
+
+
+</LinearLayout>
+
